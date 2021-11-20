@@ -14,4 +14,4 @@ const client = new Client({
     ]
 })
 
-client.login(ayarlar.token)
+client.login(process.env.token)
